@@ -1,0 +1,138 @@
+/*───────────────────────────────────────────────────────────────────────*/
+/*──────────────────────────────────────────────────────────────reference*/
+/*─────────────────────────────────────────────────────────────────────────
+float > border
+width > height
+margin > padding 
+text > font
+color > line
+
+─────────────────────────────────────────────────────────────────────────*/
+/*─────────────────────────────────────────────────────────────────common*/
+/*───────────────────────────────────────────────────────────────────────*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+	min-width: 1216px;
+	margin: 0px;
+	background-color: #F2F4F7;
+}
+
+header, footer, .left section, .main, .estimate, .partsList, .partsRegister, 
+.optionList, .optionRegister, .auctionList, .auctionRegister, .auctionDetail, .login, .register{
+	background-color: #FFFFFF;
+}
+
+.logo, .menu, .index, .info, .login, .register{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.left section, .main, .estimate, .partsList, .partsRegister, .optionList, .optionRegister, 
+.auctionList, .auctionRegister, .auctionDetail, .login, .register{
+	border: 1px solid #DEE3EB;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #47C83E;
+}
+
+.ul2{
+	display: none;
+	position: absolute;
+	border: 1px solid #DEE3EB;
+	min-width: 160px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+.ul1:hover .ul2{
+	list-style: none;
+	display: block;
+}
+
+header{
+	border-bottom: 1px solid #DEE3EB;
+	margin-bottom: 8px;
+}
+
+footer{
+	border-top: 1px solid #DEE3EB;
+	margin-top: 8px;
+}
+
+/*───────────────────────────────────────────────────────────────────────*/
+/*────────────────────────────────────────────────────────────────section*/
+/*───────────────────────────────────────────────────────────────────────*/
+.index{
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+.left_1{
+	height: 150px;
+	margin-bottom: 8px;
+}
+
+.main, .estimate, .partsList, .partsRegister, .optionList, .optionRegister, .auctionList, .auctionRegister, .auctionDetail{
+	float: right;
+	width: 992px;
+	overflow: hidden;
+	height: auto;
+	min-height: 250px;
+}
+
+.login, .register{
+	overflow: hidden;
+	height: auto;
+}
+
+.clickPage{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.pageList{
+	border-top: 1px solid #DEE3EB;
+	width: 992px;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.pageList a{
+	margin-right: 10px;
+}
+
+.login div, .register div, .partsList div, .partsRegister div, .estimate div, .optionList div, .optionRegister div, .auctionList div, .auctionRegister div, .auctionDetail div{
+	float: left;
+}
+
+.title{
+	font-weight: bold;
+	float: left;
+	margin-left: 40px;
+}
+
+.checkList{
+	font-weight: bold;
+	float: left;
+}
+
+/*───────────────────────────────────────────────────────────────────────*/
+/*─────────────────────────────────────────────────────────────────footer*/
+/*───────────────────────────────────────────────────────────────────────*/

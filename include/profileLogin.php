@@ -1,0 +1,1 @@
+<button type="button" onclick="location.href = '.$logout.'">로그아웃</button>
